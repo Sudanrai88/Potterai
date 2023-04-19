@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Hero from '../components/Hero';
-import { SliderData } from '@/components/SliderData';
-import Slider from '@/components/Slider';
-import Instagram from '@/components/instagram';
+import { SliderData } from '../components/SliderData';
+import Slider from '../components/Slider';
+import Instagram from '../components/instagram';
 
 export default function Home() {
   return (
