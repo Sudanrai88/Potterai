@@ -1,9 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
 
-function Hero({heading, description}) {
+
+function Hero2({heading, description}) {
   return (
-    <div className='flex items-center justify-center h-screen mb-6 mx-4 bg-fixed bg-center bg-cover custom-img'>
+    <div className='flex items-center justify-center h-screen mb-6 mx-4 bg-fixed bg-center bg-cover about-custom'>
         {/*Overlay*/}
         <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/50 z-[2]'/>
         <div className='p-5 text-white z-[2] ml-[-12rem] mt-[-8rem]'>
@@ -15,4 +15,4 @@ function Hero({heading, description}) {
   )
 }
 
-export default Hero
+export default Hero2

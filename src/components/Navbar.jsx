@@ -56,11 +56,11 @@ function Navbar() {
 
             {/*Mobile Buttons*/}
             <div onClick={handleNav} className='block sm:hidden z-10'> 
-                {nav ? <AiOutlineClose size={20} style={{color: `${textcolor}`}}/> : <AiOutlineMenu id='menuIcon' size={20} style={{color: `${textcolor}`}}/>}
+                {nav ? <AiOutlineClose className='mr-2' size={20} /> : <AiOutlineMenu id='menuIcon' size={20} style={{color: `${textcolor}`}}/>}
             </div>
             {/*Moblie Menu*/}
-            <div className= {`absolute top-0 ${nav?'left-0 transform-gpu scale-90': 'left-[-100%]'}
-             right-0 bottom-0 flex justify-center items-center w-full h-screen sm:hidden  text-center ease-in duration-300 bg-stone-400/90 rounded-large`}>
+            <div className= {`absolute top-0 ${nav?'left-0 transform-gpu scale-95': 'left-[-100%]'}
+             right-0 bottom-0 flex justify-center items-center w-full h-screen sm:hidden  text-center ease-in duration-300 bg-black/90 `}>
                 <ul >
                 <li className = 'p-4 text-4xl hover:text-red-200'>
                         <Link href='/'>
@@ -72,7 +72,7 @@ function Navbar() {
                     <h1>Gallery</h1>
                 </Link>
                 </li>
-                <li className = 'p-4 text-4xl hover:text-red-200'>
+                <li className = 'p-4 text-4xl hover:text-gray-200'>
                         <Link href='/about'>
                     <h1>About</h1>
                 </Link>
