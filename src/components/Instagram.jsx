@@ -14,16 +14,28 @@ const Instagram = () => {
     <div className='max-w-[1240px] mx-auto text-center py-24'>
         <p className='text-4xl font-bold'> Follow me on Insta!</p>
         <p className='pb-4'> @SusCeramics</p>
-        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 p-4'>
+        <div>
+          <div className='grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-2 p-4'>
             <InstagramImg socialImg={IgImg1} />
             <InstagramImg socialImg={IgImg2} />
             <InstagramImg socialImg={IgImg3} />
-            <InstagramImg socialImg={IgImg4} />
-            <InstagramImg socialImg={IgImg5} />
+          </div>
+          <div className='grid col-auto grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-2 p-4'>
+            <div className='col-span-1 md:col-span-2 lg:col-span-4'>
+              <InstagramImg socialImg={IgImg4} />
+            </div>
+            <div className='col-span-1 md:col-span-2 lg:col-span-4'>
+              <InstagramImg socialImg={IgImg8} />
+            </div>
+          </div>
+          <div className='grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-2 p-4'>
             <InstagramImg socialImg={IgImg6} />
             <InstagramImg socialImg={IgImg7} />
-            <InstagramImg socialImg={IgImg8} />
+            <InstagramImg socialImg={IgImg5} />
+          </div>
+        
         </div>
+        
     </div>
   )
 }

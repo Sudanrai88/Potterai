@@ -3,17 +3,15 @@
 @tailwind utilities;
 
 html {
+  font-family: 'Schibsted Grotesk', sans-serif;
   scroll-behavior: smooth;
-  font-family: 'Raleway', sans-serif;
 }
 
 html::-webkit-scrollbar{
   display: none;
 }
 
-.custom-img {
-  background-image: url('https://i.imgur.com/euCFIxM.jpg')
-}
+
 
 #menuIcon {
   margin-right: 1rem;

@@ -28,29 +28,29 @@ function Navbar() {
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
-            <Link href='/'>
+            <a href='/'>
                 <h1 style={{color: `${textcolor}`}}className='font-bold text-4xl ml-4' >Cera'</h1>
-            </Link>
+            </a>
             <ul style={{color: `${textcolor}`}} className='hidden sm:flex font-bold'>
                 <li className='p-4'>
-                    <Link href='/'>
+                    <a href='/#homeee'>
                 <h1>Home</h1>
-            </Link>
+            </a>
             </li>
                 <li className='p-4'>
-                    <Link href='/#gallery'>
+                    <a href='/#gallery'>
                 <h1>Gallery</h1>
-            </Link>
+            </a>
             </li>
                 <li className='p-4'>
-                    <Link href='/about'>
+                    <a href='/about'>
                 <h1>About</h1>
-            </Link>
+            </a>
             </li>
                 <li className='p-4'>
-                    <Link href='/contact'>
+                    <a href='/contact'>
                 <h1>Contact</h1>
-            </Link>
+            </a>
             </li>
             </ul>
 
