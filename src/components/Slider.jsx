@@ -26,12 +26,12 @@ if (!Array.isArray(slides) || slides.length <= 0) {
 
     <div className='justify-center items-center max-w-[600px] mx-auto relative'>
     <div id='gallery' className='absolute top-[-6em]'/>
-        <h1 className='text-2xl font-bold text-center p-4 px-0 py-4 border'>Gallery</h1>
+        <h1 className='text-2xl font-bold text-center p-4 px-0 py-4 text-black'> Gallery </h1>
         <div className='relative flex justify-center p-4'>
 
-        <FaArrowCircleLeft onClick={prevSlide}  className='absolute top-[50%] left-[30px] text-black/10 cursor-pointer select-none z-[10] ' size={40}/>
+        <FaArrowCircleLeft onClick={prevSlide}  className='absolute top-[50%] left-[30px] text-black/40 sm:text-black/40 cursor-pointer select-none z-[5] ' size={40}/>
                 
-        <FaArrowCircleRight onClick={nextSlide} className='absolute top-[50%] right-[30px] text-black/10 cursor-pointer select-none z-[10] ' size={40}/>
+        <FaArrowCircleRight onClick={nextSlide} className='absolute top-[50%] right-[30px] text-black/40 sm:text-black/40 cursor-pointer select-none z-[5] ' size={40}/>
 
             {SliderData.map((slide, index) => {
                 return (

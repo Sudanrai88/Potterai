@@ -63,14 +63,14 @@ function Navbar() {
              right-0 bottom-0 flex justify-center items-center w-full h-screen sm:hidden  text-center ease-in duration-300 bg-black/90 `}>
                 <ul >
                 <li className = 'p-4 text-4xl hover:text-red-200'>
-                        <Link href='/'>
+                        <a href='/#homeee'>
                     <h1>Home</h1>
-                </Link>
+                </a>
                 </li>
                     <li className = 'p-4 text-4xl hover:text-red-200'>
-                        <Link href='/#gallery'>
+                        <a href='/#gallery'>
                     <h1>Gallery</h1>
-                </Link>
+                </a>
                 </li>
                 <li className = 'p-4 text-4xl hover:text-gray-200'>
                         <Link href='/about'>

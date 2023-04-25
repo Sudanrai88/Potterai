@@ -11,6 +11,9 @@ html::-webkit-scrollbar{
   display: none;
 }
 
+body {
+  background-color: white;
+}
 
 
 #menuIcon {

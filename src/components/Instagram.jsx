@@ -4,8 +4,8 @@ import InstagramImg from './InstagramImg';
 const Instagram = () => {
   return (
     <div className='max-w-[1240px] mx-auto text-center py-24'>
-        <p className='text-4xl font-bold'> Follow me on Insta!</p>
-        <p className='pb-4'> @SusCeramics</p>
+        <p className='text-4xl font-bold text-black'> Follow me on Insta!</p>
+        <p className='pb-4 text-black' > @SusCeramics</p>
         <div>
           <div className='grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-2 p-4'>
             <InstagramImg socialImg='/assets/IMG_5948.JPG' />
