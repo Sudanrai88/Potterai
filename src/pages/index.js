@@ -12,7 +12,7 @@ export default function Home() {
           <meta name='description' content='Pottery blog site' />
           <link rel='icon' href='/favicon.ico' />
         </Head>
-        <Hero heading="Sus.Ceramicsss" description="Coming soon..." image="https://i.imgur.com/euCFIxM.jpg"/>
+        <Hero heading="Sus.Ceramics" description="Coming soon..." image="https://i.imgur.com/euCFIxM.jpg"/>
         
         <Slider slides={SliderData} />
         <Instagram />
