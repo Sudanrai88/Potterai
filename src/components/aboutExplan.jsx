@@ -34,7 +34,7 @@ function AboutExplan() {
 
       </div>
     </div>
-        )
+  )
 }
 
 export default AboutExplan
