@@ -25,6 +25,10 @@ function Navbar() {
         window.addEventListener('scroll', changeColor)
     }, [])
 
+//Change anchor tags to Link as the whole point of next is to have single page aplpications, meaning that the entirity of the website/application is loaded first. Therefore no wait times.
+
+//This means no smooth scrolling however move 'Gallery' Link to the images of the about page where we can implement the slider into the about section. We can implement that slider function (Library) in the MODAL of the about section. 
+
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>

@@ -3,10 +3,10 @@ import AboutImg from './AboutImg'
 
 function AboutExplan() {
   return (
-    <div className='mx-auto text-center py-24 max-w-[990px] px-10'>
+    <div className='mx-auto text-center py-24 max-w-[990px] px-6'>
       <div>
         <p className='text-3xl'>Sus.ceramics is a small pottery shop</p>
-        <p class='mt-5 mb-12 text-2xl'> I am an independent beginner potterer who loves to create, design and produce unique peices of work. So creative, using it actually food taste better.</p> 
+        <p className='mt-5 mb-12 text-2xl'> I am an independent beginner potterer who loves to create, design and produce unique peices of work. So creative, using it actually food taste better.</p> 
       </div>
       <div className='grid gap-[5px] cursor-pointer'>
           <div className='grid grid-cols-2 gap-[5px]'>
