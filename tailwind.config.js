@@ -26,12 +26,15 @@ module.exports = {
       'lg': '0.5rem',
       'full': '9999px',
       'large': '350px',
-    }
+    },
+  },
+
+  theme: {
+    extend: {
+      aspectRatio: {
+        '4/3': '10/7.5',
+      },
+    },
   }
-
-
-
-
-
 
 }
