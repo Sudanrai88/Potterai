@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Hero from '../components/Hero';
-import { SliderData } from '../components/SliderData';
-import Slider from '../components/Slider';
+import Some from '../components/Some';
 import Instagram from '../components/Instagram';
 
 export default function Home() {
@@ -13,8 +12,7 @@ export default function Home() {
           <link rel='icon' href='/favicon.ico' />
         </Head>
         <Hero heading="Sus.Ceramics" description="Coming soon..." image="https://i.imgur.com/euCFIxM.jpg"/>
-        
-        <Slider slides={SliderData} />
+        <Some />
         <Instagram />
     </div>
   );
