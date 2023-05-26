@@ -14,7 +14,7 @@ const Instagram = () => {
   
   return (
     <div>
-      <div className='max-w-[1240px] mx-auto text-center mt-[100px]'>
+      <div className='max-w-[1240px] mx-auto text-center mt-[100px] mb-[150px]'>
         <div className="m-[30px]">
           <p className='tracking-[0.1em] font-bold text-3xl mb-2 text-gray-800'> Join us on Instagram </p>
           <a className='pb-4 text-black' href='https://www.instagram.com/sus.ceramics/' target='_blank'> @SusCeramics</a>

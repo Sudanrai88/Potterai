@@ -5,7 +5,7 @@ import { FaInstagram } from 'react-icons/fa';
 function Footer() {
     return (
         <footer>
-            <div className='sb_footer section_padding p-[4rem] bg-[#f0f1f3] flex flex-col items-center mt-[100px]'>
+            <div className='sb_footer section_padding p-[4rem] bg-[#f0f1f3] flex flex-col items-center '>
                 <div className='sb_footer-links'>
                     <div className='sb_footer-links-div ml-[200px]'>
                         <div className='Customercare'>
