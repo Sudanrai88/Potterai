@@ -4,7 +4,7 @@ import ContactForm from '@/components/ContactForm'
 
 function contact() {
   return (
-    <div text-5xl font-bold> 
+    <div> 
     <ContactForm />
     </div>
     

@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import emailjs from '@emailjs/browser'
 
 export default function Document() {
   return (
