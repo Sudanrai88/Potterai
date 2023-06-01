@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import aboutImage from "public/assets/capture.png";
+import aboutImage from "public/assets/Capture.png";
 import Link from "next/link";
 import OrangeHR from "./orangeHR";
 import Slider from "../Slider";
-import imageByIndex from "./imageByIndex";
-import IMG1 from 'public/assets/IMG1.JPG'
+
 
 
 const OPTIONS = {};
