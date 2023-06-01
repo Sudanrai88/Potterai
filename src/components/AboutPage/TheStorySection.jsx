@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import aboutImage from "../public/assets/Capture.png";
+import aboutImage from "/public/assets/Capture.png";
 import Link from "next/link";
 import OrangeHR from "./orangeHR";
 import Slider from "../Slider";
@@ -23,7 +23,7 @@ export default function TheStorySection({}) {
             of life for every piece.
           </p>
         </div>
-        <OrangeHR lineWidth={"70%"} />
+        <OrangeHR lineWidth={"70%"}/>
 
         <div className="px-6 w-[100%] grid grid-cols-12 grid-rows-1 my-8 max-w-[990px]">
           <div className="col-span-12 sm:col-span-5">
