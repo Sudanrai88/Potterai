@@ -16,6 +16,8 @@
     "@mui/material": "^5.12.2",
     "autoprefixer": "10.4.14",
     "blaze-slider": "^1.9.3",
+    "embla-carousel-autoplay": "8.0.0-rc06",
+    "embla-carousel-react": "^8.0.0-rc06",
     "formik": "^2.4.0",
     "next": "^13.4.4",
     "nodemailer": "^6.9.3",

@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
-import TestModal from './TestModal';
-import InstagramImg from './InstagramImg';
-import { ModalData2 } from './ModalData';
-import BlazeSlider from 'blaze-slider'
+import TestModal from '../TestModal';
+import InstagramImg from '../InstagramImg';
+import { ModalData2 } from '../ModalData';
+import TheStory from "./TheStorySection";
 
 function AboutExplan() {
 
@@ -14,14 +14,12 @@ function AboutExplan() {
   }
 
   return (
-    <div>
-      <div className='mx-auto text-center pt-24 max-w-[990px] px-6 mb-[150px]'>
-        <div>
-          <p className='text-3xl'>Sus.ceramics is a small pottery shop</p>
-          <p className='mt-5 mb-12 text-2xl'> I am an independent beginner potterer who loves to create, design and produce unique peices of work. So creative, using it actually food taste better.</p>
-        </div>
+    <>
+   
+      <TheStory  />
+<div className='flex flex-col justify-center align-middle items-center mx-auto max-w-[990px]'>
+      <div className='grid mx-auto px-6 mb-[150px]'>
         <div className='grid gap-[5px] cursor-pointer'>
-      
           <div className='grid grid-cols-2 gap-[5px]'>
             <InstagramImg onClick={onClick} socialImg={ModalData2[0].image} />
             <InstagramImg onClick={onClick} socialImg={ModalData2[1].image} />
@@ -48,7 +46,7 @@ function AboutExplan() {
       </div>
       {modalImage && <TestModal socialImg={modalImage} onClose={() => setModalImage(null)} />}
     </div>
-
+    </>
   )
 }
 

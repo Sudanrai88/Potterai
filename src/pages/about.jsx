@@ -1,11 +1,12 @@
 import React from 'react'
-import AboutExplan from '@/components/AboutExplan'
+import AboutExplan from '@/components/AboutPage/AboutExplan'
 import Hero from '@/components/Hero'
 
 function About() {
   return (
     <div className='secondBack z-10'>
-      <Hero heading={'About me'} description={'This is about why I love pots and stuff' } image={'https://i.imgur.com/RUwU1Zd.jpg'}/>
+      <Hero heading={''} description={''} image={'https://i.imgur.com/RUwU1Zd.jpg'}
+      backgroundVH={"50vh"} showButton={false}/>
       <AboutExplan />
     </div>
   )

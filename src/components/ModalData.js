@@ -1,3 +1,5 @@
+
+
 export const ModalData = [
     {
         image: '/assets/IMG_5948.JPG'
@@ -38,4 +40,6 @@ export const ModalData2 = [
     { image: '/assets/IMG9.JPG' },
     { image: '/assets/IMG10.JPG' },
     { image: '/assets/IMG12.JPG' },
+    { image: '/assets/About.PNG' },
+
 ];
