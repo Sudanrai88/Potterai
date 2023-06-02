@@ -12,7 +12,7 @@ const InstagramImg = ({ socialImg, onClick, showInsta = false}) => {
     <div>
       <div className='relative' onClick={() => onClick(socialImg)}>
 
-        <Image src={socialImg} alt='/' className={(showInsta ? 'aspect-square object-cover' : 'aspect-[4/3]')} layout='responsive' width={100} height={100}  />
+        <Image src={socialImg} alt='/' className={(showInsta ? 'aspect-square object-cover' : 'aspect-[4/3]')} layout='responsive' width={100} height={100} quality={50}/>
         {/* Overlay*/}
 
         {showInsta ? <div className='flex justify-center items-center absolute top-0 left-0 right-0 bottom-0 hover:bg-black/50 group ease-in duration-300'>

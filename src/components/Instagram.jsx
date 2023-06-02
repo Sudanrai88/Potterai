@@ -22,18 +22,18 @@ const Instagram = () => {
         <div className='grid gap-[5px] cursor-pointer'>
 
           <div className='grid grid-cols-3 gap-[5px]'>
-            <InstagramImg showInsta= {true} onClick={onClick} socialImg={'/assets/IMG_5948.JPG'} />
-            <InstagramImg showInsta= {true} onClick={onClick} socialImg={'/assets/IMG_5943.JPG'} />
-            <InstagramImg showInsta= {true} onClick={onClick} socialImg={'/assets/IMG_5944.JPG'} />
+            <InstagramImg showInsta= {true} onClick={onClick} socialImg={ModalData[0]} />
+            <InstagramImg showInsta= {true} onClick={onClick} socialImg={ModalData[1]} />
+            <InstagramImg showInsta= {true} onClick={onClick} socialImg={ModalData[2]} />
           </div>
           <div className='grid grid-cols-2 gap-[5px]'>
-            <InstagramImg showInsta= {true} onClick={onClick} socialImg={'/assets/IMG_5945.JPG'} />
-            <InstagramImg showInsta= {true} onClick={onClick} socialImg={'/assets/IMG_6119.JPG'} />
+            <InstagramImg showInsta= {true} onClick={onClick} socialImg={ModalData[3]} />
+            <InstagramImg showInsta= {true} onClick={onClick} socialImg={ModalData[4]} />
           </div>
           <div className='grid grid-cols-3 gap-[5px]'>
-            <InstagramImg showInsta= {true} onClick={onClick} socialImg={'/assets/IMG_5952.JPG'} />
-            <InstagramImg showInsta= {true} onClick={onClick} socialImg={'/assets/IMG_6118.JPG'} />
-            <InstagramImg showInsta= {true} onClick={onClick} socialImg={'/assets/IMG_5881.JPG'} />
+            <InstagramImg showInsta= {true} onClick={onClick} socialImg={ModalData[5]} />
+            <InstagramImg showInsta= {true} onClick={onClick} socialImg={ModalData[6]} />
+            <InstagramImg showInsta= {true} onClick={onClick} socialImg={ModalData[7]} />
           </div>
         </div>
       </div>
