@@ -4,6 +4,7 @@ import aboutImage from "src/assets/capture.png";
 import Link from "next/link";
 import OrangeHR from "./orangeHR";
 import Slider from "../Slider";
+import OrangeHR2 from "./orangeHR2";
 
 
 
@@ -23,7 +24,7 @@ export default function TheStorySection({}) {
             of life for every piece.
           </p>
         </div>
-        <OrangeHR lineWidth={"70%"}/>
+        <OrangeHR2/>
 
         <div className="px-6 w-[100%] grid grid-cols-12 grid-rows-1 my-8 max-w-[990px]">
           <div className="col-span-12 sm:col-span-5">

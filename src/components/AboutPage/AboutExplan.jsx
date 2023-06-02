@@ -17,15 +17,15 @@ function AboutExplan() {
   return (
     <>
       <TheStory />
-      <div className="flex flex-col justify-centre align-middle items-center mx-auto h-[360px]">
-        <div className="grid grid-cols-12 grid-rows-1 max-w-[990px] w-[100%] h-[400px]">
-          <div className="col-span-6 sm:col-span-3 px-3 max-h-[500px] max-w-[300px]">
+      <div className="flex flex-col justify-centre align-middle items-center mx-auto ">
+        <div className="mt-[17px] gap-[20px] p-[17px] grid grid-cols-12 grid-rows-1 max-w-[990px] w-[100%]">
+          <div className="col-span-6 sm:col-span-3 max-h-[500px] max-w-[300px]">
             <Image src={CroppedData[0]} quality={80} height={500} width={350} />
           </div>
-          <div className="col-span-6 sm:col-span-3 px-3 max-h-[500px] max-w-[300px]">
+          <div className="col-span-6 sm:col-span-3 max-h-[500px] max-w-[300px]">
             <Image src={CroppedData[1]} quality={80} height={500} width={350} />
           </div>
-          <div className="col-span-6 sm:col-span-3 px-3 max-h-[500px] max-w-[300px]">
+          <div className="col-span-6 sm:col-span-3  max-h-[500px] max-w-[300px]">
             <div>
               <Image
                 src={CroppedData[2]}
@@ -35,12 +35,12 @@ function AboutExplan() {
               />
             </div>
           </div>
-          <div className="col-span-6 sm:col-span-3 px-3 max-h-[500px] max-w-[300px]">
+          <div className=" col-span-6 sm:col-span-3  max-h-[500px] max-w-[300px]">
             <Image src={CroppedData[3]} quality={80} height={500} width={350} />
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center align-middle items-center mx-auto max-w-[990px]">
+      {/* <div className="flex flex-col justify-center align-middle items-center mx-auto max-w-[990px]">
         <div className="grid mx-auto px-6 mb-[150px]">
           <div className="grid gap-[5px] cursor-pointer">
             <div className="grid grid-cols-2 gap-[5px]">
@@ -73,7 +73,7 @@ function AboutExplan() {
             onClose={() => setModalImage(null)}
           />
         )}
-      </div>
+      </div> */}
     </>
   );
 }
