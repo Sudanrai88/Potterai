@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import aboutImage from "/src/assets/Capture.png";
+import aboutImage from "src/assets/Capture.png";
 import Link from "next/link";
 import OrangeHR from "./orangeHR";
 import Slider from "../Slider";
