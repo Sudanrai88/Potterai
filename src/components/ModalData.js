@@ -2,28 +2,28 @@
 
 export const ModalData = [
     {
-        image: '/assets/IMG_5948.JPG'
+        image: '/assets/instaimg1.jpg'
     },
     {
-        image: '/assets/IMG_5943.JPG'
+        image: '/assets/instaimg2.jpg'
     },
     {
-        image: '/assets/IMG_5944.JPG'
+        image: '/assets/instaimg3.jpg'
     },
     {
-        image: '/assets/IMG_5945.JPG'
+        image: '/assets/instaimg4.jpg'
     },
     {
-        image: '/assets/IMG_6119.JPG'
+        image: '/assets/instaimg5.jpg'
     },
     {
-        image: '/assets/IMG_5952.JPG'
+        image: '/assets/instaimg6.jpg'
     },
     {
-        image: '/assets/IMG_6118.JPG'
+        image: '/assets/instaimg7.jpg'
     },
     {
-        image: '/assets/IMG_5881.JPG'
+        image: '/assets/instaimg8.jpg'
     },
 ];
 
