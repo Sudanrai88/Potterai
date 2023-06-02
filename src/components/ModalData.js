@@ -28,18 +28,18 @@ export const ModalData = [
 ];
 
 export const ModalData2 = [
-    { image: '/assets/IMG1.JPG' },
-    { image: '/assets/IMG2.JPG' },
-    { image: '/assets/IMG4.JPG' },
-    { image: '/assets/IMG5.JPG' },
-    { image: '/assets/IMG3.JPG' },
-    { image: '/assets/IMG6.JPG' },
-    { image: '/assets/IMG7.JPG' },
-    { image: '/assets/IMG8.JPG' },
-    { image: '/assets/IMG11.JPG' },
-    { image: '/assets/IMG9.JPG' },
-    { image: '/assets/IMG10.JPG' },
-    { image: '/assets/IMG12.JPG' },
-    { image: '/assets/About.PNG' },
+    { image: '/assets/img1.jpg' },
+    { image: '/assets/img2.jpg' },
+    { image: '/assets/img3.jpg' },
+    { image: '/assets/img4.jpg' },
+    { image: '/assets/img5.jpg' },
+    { image: '/assets/img6.jpg' },
+    { image: '/assets/img7.jpg' },
+    { image: '/assets/img8.jpg' },
+    { image: '/assets/img9.jpg' },
+    { image: '/assets/img10.jpg' },
+    { image: '/assets/img11.jpg' },
+    { image: '/assets/img11.jpg' },
+    { image: '/assets/about.png' },
 
 ];
