@@ -2,8 +2,7 @@ import Head from 'next/head';
 import Hero from '../components/Hero';
 import Some from '../components/Some';
 import Instagram from '../components/Instagram';
-import { useState } from 'react';
-import TestModal from '@/components/TestModal';
+import image8 from "src/assets/img8.jpg";
 
 export default function Home() {
   return (

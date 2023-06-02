@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import image8 from "src/assets/img8.jpg";
 
 
 
@@ -10,7 +11,7 @@ const Some = () => {
         <div className='max-w-[1140px] mx-[50px] sm:mx-[100px] xl:mx-auto my-[100px]'>
             <div className='md:flex items-center'>
                 <div className='md:w-[50%]'>
-                    <Image src='https://i.imgur.com/hINwUg3.jpg' alt='//////' className='' width={700} height={700} />
+                    <Image src={image8} alt='//////' className='' width={700} height={700} />
                 </div>
                 <div className='align-middle md:w-[50%] px-[10px] xl:pl-[80px] py-[10px] xl:py-[40px] xl:ml-[50px] border'>
                     <div className='text-gray-800'>

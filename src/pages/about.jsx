@@ -5,7 +5,7 @@ import Hero from '@/components/Hero'
 function About() {
   return (
     <div className='secondBack z-10'>
-      <Hero heading={''} description={''} image={'https://i.imgur.com/RUwU1Zd.jpg'}
+      <Hero heading={''} description={''} image="https://imgur.com/hINwUg3.jpg"
       backgroundVH={"50vh"} showButton={false}/>
       <AboutExplan />
     </div>
