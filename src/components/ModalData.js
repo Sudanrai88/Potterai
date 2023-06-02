@@ -20,8 +20,15 @@ import instaimg6 from "src/assets/instaimg6.jpg"
 import instaimg7 from "src/assets/instaimg7.jpg"
 import instaimg8 from "src/assets/instaimg8.jpg"
 
+import croppedimg1 from "src/assets/croppedimg1.jpg"
+import croppedimg2 from "src/assets/croppedimg2.jpg"
+import croppedimg3 from "src/assets/croppedimg3.jpg"
+import croppedimg4 from "src/assets/croppedimg4.jpg"
+
 
 
 export const ModalData = [instaimg1, instaimg2, instaimg3, instaimg4,instaimg5, instaimg6, instaimg7, instaimg8];
 
 export const ModalData2 = [image1, image2, image3, image4,image5, image6, image7, image8,image9, image10, image11, image12];
+
+export const CroppedData = [croppedimg1, croppedimg2, croppedimg3, croppedimg4];
