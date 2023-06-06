@@ -12,8 +12,8 @@ export default function Home() {
         <meta name='description' content='Pottery blog site' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Hero heading="Sus.Ceramics" description="Coming soon..." image="https://i.imgur.com/euCFIxM.jpg" backgroundVH="110vh" showButton={true} />
-      
+      <Hero heading="Sus.Ceramics" description="Coming soon..." image="https://i.imgur.com/euCFIxM.jpg" backgroundVH="110vh" showButton={true} opacity={"50"}/>
+
       <Some />
       <Instagram />
     </div>
