@@ -63,7 +63,7 @@ export default function TheStorySection({}) {
           </div>
         </div>
         <OrangeHR lineWidth={"60%"} />
-
+        
         <Slider slides={SLIDES} options={OPTIONS} />
 
         <div className="px-6 w-[100%] grid grid-cols-12 grid-rows-1 mb-[50px] max-w-[990px]">

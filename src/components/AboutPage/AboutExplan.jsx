@@ -6,6 +6,7 @@ import InstagramImg from "../InstagramImg";
 import { ModalData, ModalData2, CroppedData } from "../ModalData";
 import TheStory from "./TheStorySection";
 import Image from "next/image";
+import Hero from '../Hero';
 
 function AboutExplan() {
   const [modalImage, setModalImage] = useState(null);
@@ -17,7 +18,8 @@ function AboutExplan() {
   return (
     <>
       <TheStory />
-      <div className="flex flex-col justify-centre align-middle items-center mx-auto ">
+      <div className="flex flex-col justify-centre align-middle items-center mx-auto mb-[30px]">
+
         <div className="mt-[17px] gap-[20px] p-[17px] grid grid-cols-12 grid-rows-1 max-w-[990px] w-[100%]">
           <div className="col-span-6 sm:col-span-3 max-h-[500px] max-w-[300px]">
             <Image src={CroppedData[0]} quality={80} height={500} width={350} />
@@ -40,6 +42,17 @@ function AboutExplan() {
           </div>
         </div>
       </div>
+      <Hero heading={''} description={''} image="https://imgur.com/hINwUg3.jpg"
+      backgroundVH={"40vh"} showButton={false} opacity={'0.3'}/>
+
+
+
+
+
+
+
+
+
       {/* <div className="flex flex-col justify-center align-middle items-center mx-auto max-w-[990px]">
         <div className="grid mx-auto px-6 mb-[150px]">
           <div className="grid gap-[5px] cursor-pointer">

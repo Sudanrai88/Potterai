@@ -13,6 +13,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Hero heading="Sus.Ceramics" description="Coming soon..." image="https://i.imgur.com/euCFIxM.jpg" backgroundVH="110vh" showButton={true} />
+      
       <Some />
       <Instagram />
     </div>
