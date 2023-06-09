@@ -9,12 +9,6 @@ import Image from "next/image";
 import Hero from '../Hero';
 
 function AboutExplan() {
-  const [modalImage, setModalImage] = useState(null);
-
-  const onClick = (socialImg) => {
-    setModalImage(socialImg);
-  };
-
   return (
     <>
       <TheStory />
@@ -44,15 +38,7 @@ function AboutExplan() {
       </div>
       <Hero heading={''} description={''} image="https://imgur.com/hINwUg3.jpg"
       backgroundVH={"40vh"} showButton={false} opacity={'0.3'}/>
-
-
-
-
-
-
-
-
-
+ 
       {/* <div className="flex flex-col justify-center align-middle items-center mx-auto max-w-[990px]">
         <div className="grid mx-auto px-6 mb-[150px]">
           <div className="grid gap-[5px] cursor-pointer">
